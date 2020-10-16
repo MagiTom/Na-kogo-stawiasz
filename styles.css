@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+}
+
+.main {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(138deg, rgba(70, 86, 179, 1) 5%, rgba(44, 58, 158, 1) 34%, rgba(15, 29, 129, 1) 73%);
+}
+
+.team {
+    display: flex;
+    border: 1px solid black;
+    width: 50%;
+    background: white;
+    color: gray;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    background-color: darkgrey;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.goals1,
+.goals2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+#btn {
+    margin: 10px;
+    padding: 5px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.result {
+    margin: 20px;
+    color: yellowgreen;
+}
+
+.scores {
+    margin: 0;
+    display: flex;
+}
+
+
+.result-table2,
+.result-table1 {
+    margin: 0px 50px 0px 50px;
+
+
+}
+
+.result-table2>div,
+.result-table1>div {
+    color: palevioletred;
+}
+
+h3 {
+    font-size: 1em;
+}
